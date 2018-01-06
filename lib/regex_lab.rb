@@ -27,7 +27,7 @@ end
 
 def valid_phone_number?(phone)
   if phone.scan(/\d{1,10}/)[0].length == 10
-    binding.pry
+    #binding.pry
     true
   else
     false
